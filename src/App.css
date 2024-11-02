@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Dancing Script", cursive;
+}
+body{
+ background-color:azure;
+}
+.navsection{
+  font-family: "Dancing Script", cursive;
+  border:1px solid rgb(221, 140, 167);
+  background-color: rgb(221, 140, 167);
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 25px;
+  height:80px;
+  font-style: bold;
+  padding:20px;
+}
+.navsection .title{
+  border:2px solid whitesmoke;
+  border-radius: 14px;
+  
+}
+.navsection .search input{
+  width:300px;
+  height:30px;
+  border:none;
+  border-radius:14px;
+}
+.navsection .user{
+  display: flex;
+  gap:40px;
+}
+.prosection{
+  display:flex;
+  background-color: white;
+}
+.imgbox{
+  width:80%;
+}
+.pro_img{
+  width:80%;
+}
+.protitle{
+  margin:15px;
+}
+.submenu ul li{
+  list-style: none;
+  justify-content: space-evenly;
+  align-items:'safe';
+  margin:10px;
+}
+.submenu ul{
+  display: inline-flex;
+  gap:12px;
+  font-size:20px;
+}
+.submenu{
+  background-color:slategrey;
+  color:azure;
+  height:40px;
+}
+.pagesection{
+  display:grid;
+  grid-template-columns: repeat(4,300px);
+  height:200px;
+  width:300px;
+
+}
+.pagesection .imgbox .pagemod{
+  margin:20px;
+}
+.ind_img{
+  height: 500px;
+  width: 500px;
+}
+.ind_img img{
+  width:100%;
+}
+.ind_section{
+  display:flex;
+}.space{
+  margin: 15px;
+  font-weight: 900;
+}
+.ind_details button{
+  width:12rem;
+  height:2rem;
+  background-color: rgb(33, 33, 78);
+  color:azure;
+  border-radius: 13px;
+}
+.fullpage{
+  display:flex;
+}
+.pro_selected{
+  width:10%;
+}
+.pro_input input{
+  margin:10px;
+}
+.cart_section{
+  display:flex;
+  margin:20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+.cart_details {
+  display: flex; /* Flexbox for the details */
+  flex-direction: column; /* Stack details vertically */
+  margin-left: 15px; /* Space between image and details */
+}
